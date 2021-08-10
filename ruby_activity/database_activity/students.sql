@@ -18,3 +18,13 @@ INSERT into students (id, first_name,last_name, age, location) VALUES (6, 'Finn'
 UPDATE students set first_name = 'Ivan', middle_name = 'Ingram', last_name = 'Howard', age = 25, location = 'Bulacan' where id = 1;
 
 DELETE FROM students where id = 6;
+
+-- New activity
+
+SELECT COUNT(id) FROM students;
+
+SELECT * from students WHERE location = 'Manila';
+
+SELECT AVG(age) FROM students;
+
+SELECT * from students ORDER BY age desc;
